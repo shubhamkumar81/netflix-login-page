@@ -1,0 +1,58 @@
+# netflix-login-page
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Netflix Homepage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <!-- Netflix logo -->
+    <img src="C:\Users\shaur\OneDrive\Desktop\Netflix.png" alt="Netflix Logo">
+    <!-- Navigation menu -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My List</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">New & Popular</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Unlimited movies, TV shows, and more.</h1>
+    <h2>Watch anywhere. Cancel anytime.</h2>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="cta">
+      <input type="email" placeholder="Email address">
+      <button>Get Started</button>
+    </div>
+  </section>
+
+  <!-- Content section -->
+  <section class="content">
+    <!-- Movie/TV show cards -->
+    <div class="card">
+      <img src="C:\Users\shaur\OneDrive\Desktop\Pathaan.jpg" alt="MOVIE1">
+    </div>
+    <div class="card">
+      <img src="C:\Users\shaur\OneDrive\Desktop\Sucide Squad.jpg" alt="Movie 2">
+    </div>
+    <div class="card">
+      <img src="C:\Users\shaur\OneDrive\Desktop\Lucifer.jpg" alt="TV Show 1">
+    </div>
+    <div class="card">
+      <img src="C:\Users\shaur\OneDrive\Desktop\wednesday.jpg" alt="TV Show 2">
+    </div>
+    <div class="card">
+      <img src="C:\Users\shaur\OneDrive\Desktop\Batman.jpg" alt="TV Show 3">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Netflix</p>
+  </footer>
+</body>
+</html>
